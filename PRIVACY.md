@@ -1,8 +1,8 @@
 # ScopeGrid privacy policy
 
-_Last updated: 25 October 2026 · applies to ScopeGrid for Android and ScopeGrid for Windows, version 1.7.2 and later._
+_Last updated: 25 October 2026 · applies to ScopeGrid for Android and ScopeGrid for Windows, version 1.7.3 and later._
 
-ScopeGrid is made by Scopewise Consulting (Zahid Hussain), Lahore, Pakistan. Contact: mzhspk@gmail.com.
+ScopeGrid is made by Scopewise Consulting (Adam Knight), Lahore, Pakistan. Contact: badass.insane@gmail.com.
 
 ## In short
 
@@ -12,7 +12,7 @@ ScopeGrid has **no servers of its own**. It does not collect, sell or share anyt
 
 | Data | Where it is kept | Who it is sent to |
 |---|---|---|
-| Your DessMonitor (or SmartESS) username and password, or a captured DessMonitor link | Encrypted on your device (Android Keystore on the phone, Windows DPAPI on the PC) | Only DessMonitor, to read your inverter and to change settings you ask for |
+| Your DessMonitor (or SmartESS) username and password, or a captured DessMonitor link | Encrypted on your device (Android Keystore on the phone, Windows DPAPI on the PC) | Only DessMonitor, to read your inverter and to change settings you ask for; and your own paired PC or phone, over the encrypted home-network link |
 | Inverter readings, history, alarms, outage times, battery health, control schedules, bills and monthly reports | On your device only | Nobody |
 | Your meter readings, tariff and slab rates | On your device only | Your own PC or phone through phone sync, if you pair them |
 | The town or coordinates you set for the weather | On your device | Open-Meteo, to get the forecast for that place (no account, no identifier) |
@@ -22,7 +22,7 @@ ScopeGrid has **no servers of its own**. It does not collect, sell or share anyt
 
 ## Phone sync
 
-When you pair your phone with your PC, they talk directly over your home network. Every message is encrypted with a key that only those two devices know. Nothing goes through the internet or through ScopeGrid servers, because there aren't any.
+When you pair your phone with your PC, they talk directly over your home network. Every message is encrypted with a key that only those two devices know. Nothing goes through the internet or through ScopeGrid servers, because there aren't any. Paired devices share your settings (bill, place, schedules, warnings) and your DessMonitor login, so whichever device you set up first sets up the other. The login stays encrypted on each device (Android Keystore, Windows DPAPI). Signing out on one device does not sign out the other.
 
 ## Camera and location (Android)
 
@@ -35,7 +35,7 @@ Settings you change, including changes made by your own schedules, are sent only
 
 ## Updates
 
-The GitHub version of ScopeGrid checks the project's public GitHub releases for a newer version. This request carries no personal information. The Google Play version is updated by Google Play.
+The GitHub version of ScopeGrid checks ScopeGrid's public release page (github.com/admknight/scopegrid-data) for a newer version. This request carries no personal information. The Google Play version is updated by Google Play.
 
 ## Children
 
