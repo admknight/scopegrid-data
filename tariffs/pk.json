@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "asOf": "2026-02-12",
+  "source": "Domestic A-1 tariff for LESCO and the other government DISCOs, S.R.O. 279(I)/2026, in force from 12 Feb 2026.",
+  "comment": "Uniform consumer-end tariff: every company listed uses these rates. Edit asOf, source and the figures when NEPRA notifies new rates; apps with automatic updates on apply them within a day. Fixed charges are Rs per kW of sanctioned load per month for the slab reached. Energy rates are Rs per unit.",
+  "companies": [
+    {
+      "id": "lesco",
+      "name": "LESCO",
+      "full": "Lahore Electric Supply Company"
+    },
+    {
+      "id": "gepco",
+      "name": "GEPCO",
+      "full": "Gujranwala Electric Power Company"
+    },
+    {
+      "id": "fesco",
+      "name": "FESCO",
+      "full": "Faisalabad Electric Supply Company"
+    },
+    {
+      "id": "iesco",
+      "name": "IESCO",
+      "full": "Islamabad Electric Supply Company"
+    },
+    {
+      "id": "mepco",
+      "name": "MEPCO",
+      "full": "Multan Electric Power Company"
+    },
+    {
+      "id": "pesco",
+      "name": "PESCO",
+      "full": "Peshawar Electric Supply Company"
+    },
+    {
+      "id": "hazeco",
+      "name": "HAZECO",
+      "full": "Hazara Electric Supply Company"
+    },
+    {
+      "id": "hesco",
+      "name": "HESCO",
+      "full": "Hyderabad Electric Supply Company"
+    },
+    {
+      "id": "sepco",
+      "name": "SEPCO",
+      "full": "Sukkur Electric Power Company"
+    },
+    {
+      "id": "qesco",
+      "name": "QESCO",
+      "full": "Quetta Electric Supply Company"
+    },
+    {
+      "id": "tesco",
+      "name": "TESCO",
+      "full": "Tribal Areas Electricity Supply Company"
+    },
+    {
+      "id": "ke",
+      "name": "K-Electric",
+      "full": "K-Electric (Karachi)"
+    }
+  ],
+  "tariffs": [
+    {
+      "id": "pk-protected",
+      "name": "Protected (up to 200 units a month)",
+      "note": "Each slab at its own rate. Using more than 200 units in a month makes the next six bills non-protected. Fixed charge Rs 200–300 per kW, counted when you enter your sanctioned load.",
+      "limits": [
+        100,
+        200
+      ],
+      "rates": [
+        10.54,
+        13.01
+      ],
+      "wholeBill": false,
+      "fixedPerKw": [
+        200,
+        300
+      ]
+    },
+    {
+      "id": "pk-unprotected",
+      "name": "Non-protected",
+      "note": "Every unit at the rate of the slab you reach (crossing 200 units raises the whole bill). Fixed charge Rs 275–675 per kW by slab, counted when you enter your sanctioned load.",
+      "limits": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700
+      ],
+      "rates": [
+        22.44,
+        28.91,
+        33.1,
+        36.46,
+        38.95,
+        40.22,
+        41.85,
+        47.2
+      ],
+      "wholeBill": true,
+      "fixedPerKw": [
+        275,
+        300,
+        350,
+        400,
+        500,
+        675,
+        675,
+        675
+      ]
+    },
+    {
+      "id": "pk-lifeline",
+      "name": "Lifeline (up to 100 units)",
+      "note": "For small homes on the lifeline category. No fixed charge; a minimum bill applies.",
+      "limits": [
+        50,
+        100
+      ],
+      "rates": [
+        3.95,
+        7.74
+      ],
+      "wholeBill": true,
+      "fixedPerKw": []
+    },
+    {
+      "id": "pk-tou",
+      "name": "Time of use (5 kW and above)",
+      "note": "Off-peak and peak rates. Peak hours follow the seasons: Dec–Feb 5–9 PM, Mar–May 6–10 PM, Jun–Aug 7–11 PM, Sep–Nov 6–10 PM. Fixed charge Rs 675 per kW, counted when you enter your sanctioned load.",
+      "limits": [],
+      "rates": [],
+      "wholeBill": false,
+      "fixedPerKw": [
+        675
+      ],
+      "flat": 34.53,
+      "peakRate": 46.85,
+      "peakStart": 1080,
+      "peakEnd": 1320
+    }
+  ]
+}
